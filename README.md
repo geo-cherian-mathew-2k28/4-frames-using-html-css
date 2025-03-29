@@ -1,1 +1,40 @@
-# 4-frames-using-html-css
+<!DOCTYPE html>
+	<html>
+	
+		<head>
+			<title>4boxweb</title>
+			<style>
+				td{text-align:center;
+				   font-size:25px;
+				   font-weigth:bold;}
+				
+				html,body{height:100%;
+						  width:100%;}
+						  
+				td{width:50%;}
+				
+				table{width:100%;
+					  height:100%;}
+					  
+				tr{height:50%;}
+				   
+			</style>
+		</head>
+		
+		<body>
+		
+			<table>
+				<tr>
+					<td bgcolor="red">frame1</td>
+					<td bgcolor="green">frame2</td>
+				</tr>
+				
+				<tr height="50%">
+					<td bgcolor="blue">frame3</td>
+					<td bgcolor="yellow">frame4</td>
+				</tr>
+			</table>
+		
+		</body>
+		
+ 	</html>
